@@ -1,0 +1,7 @@
+export SHOPPING="http://localhost:7770/"
+export SHOPPING_ADMIN="http://localhost:7770/admin"
+export REDDIT="example.com"
+export GITLAB="example.com"
+export MAP="example.com"
+export WIKIPEDIA="example.com"
+export HOMEPAGE="http://localhost:4399"

@@ -1,6 +1,20 @@
 """Replace the website placeholders with website domains from env_config
 Generate the test data"""
 import json
+import sys
+
+import os
+
+# Получаем текущую рабочую директорию
+current_directory = os.getcwd()
+
+# Выводим её на экран
+print("Текущая рабочая директория:", current_directory)
+
+# print(sys.path)
+# sys.path.append('/home/iushinsv/workrep/webarena/browser_env')
+# import os
+# os.chdir('..')
 
 from browser_env.env_config import *
 
